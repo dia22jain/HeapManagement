@@ -1,2 +1,2 @@
 # HeapManagement
-This C code showcases a custom memory allocation system employing the First Fit algorithm.Employing linked lists, it efficiently allocates and deallocates variable-sized memory blocks, adhering to the First Fit strategy. Users can compile and execute the program to observe its functionality, providing insights into memory management techniques. For production-grade applications, leveraging standard library functions such as malloc and free is advisable.
+This C code showcases a custom memory allocation system employing the First Fit algorithm.Employing linked lists, it efficiently allocates and deallocates variable-sized memory blocks using malloc and free functions, adhering to the First Fit strategy.
