@@ -14,7 +14,7 @@ block* freeList;
 void*init()
 {
   block*heap=malloc(HEAP_SIZE);
-  freeList=(block*)heap;
+  freeList=(block*)heap; //malloc returns a void* (generic pointer), it needs to be cast to the specific pointer type being used.
   freeList->size = HEAP_SIZE - sizeof(block); // Size of the block, excluding metadata
   freeList->next = NULL; // No other free blocks initially
 }
